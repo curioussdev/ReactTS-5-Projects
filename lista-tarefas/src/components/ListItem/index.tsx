@@ -5,11 +5,6 @@ import { useState } from 'react';
 type Props = {
     item: Item
 }
-line = {}
-let done = {
-
-}
-
 export const ListItem = ({ item }: Props) => {
     const [isChecked, setIsChecked] = useState(item.done);
     return (
