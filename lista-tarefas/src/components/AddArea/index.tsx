@@ -5,7 +5,7 @@ type Props = {
     onEnter: (taskName: string) => void
 }
 
-export const AddArea = () => {
+export const AddArea = ({ onEnter }: Props) => {
     const [inputText, setInputText] = useState<string>('')
 
     const handleChange = (e: any)  => {
@@ -13,7 +13,9 @@ export const AddArea = () => {
     }
 
     const handleKeyUp = (e: KeyboardEvent) => {
-        if(e.code === 'Enter' && inputText !== '')
+        if(e.code === 'Enter' && inputText !== '') {
+            onEnter(inputText);
+        }
     };
 
 
