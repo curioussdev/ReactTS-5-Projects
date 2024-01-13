@@ -1,9 +1,15 @@
-import { Container } from "./styles";
+import { Container, Header, HeaderText, Body } from "./styles";
 
 export function Dashboard() {
     return(
         <Container>
-            <h1>Controle Financeiro</h1>
+            <Header>
+                <HeaderText>Dashboard Finanças</HeaderText>
+            </Header>
+
+            <Body>
+                CORPO DA DASHBOARD
+            </Body>
         </Container>
     )
 }
