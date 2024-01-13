@@ -9,6 +9,12 @@ export function Dashboard() {
 
             <Body>
                 CORPO DA DASHBOARD
+
+                {/**ÁREA DE INFORMAÇÕES */}
+
+                {/**ÁREA DE INSERÇÃO */}
+
+                {/**ÁREA DE ITENS */}
             </Body>
         </Container>
     )
