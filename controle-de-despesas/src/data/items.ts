@@ -26,4 +26,4 @@ export const items: Item[] = [
         title: 'Buy House',
         value: 1208.87
     }
-]
+] 
