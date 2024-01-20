@@ -24,7 +24,7 @@ export const TableArea = ({ list }: Props) =>{
                     <tr key={index}>
                         <td></td>
                         <td></td>
-                        <td>{item.title} </td>
+                        <td>{item.title} teste</td>
                         <td></td>
                     </tr>
                 ))}
