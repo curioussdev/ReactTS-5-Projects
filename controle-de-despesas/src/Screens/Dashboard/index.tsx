@@ -11,7 +11,7 @@ import { TableArea } from "../../components/TableArea";
 
 export function Dashboard() {
     const [list, setList] = useState<Item[]>(items);
-    const [filteredList, setFilteredList] = useState<Item[]>(list);
+    const [filteredList, setFilteredList] = useState<Item[]>([]);
     const [currentMonth, setCurrentMonth] = useState(getCurrentMonth());
     
 
